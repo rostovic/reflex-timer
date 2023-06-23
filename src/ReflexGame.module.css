@@ -1,0 +1,32 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+  width: 1800px;
+}
+
+.startGameButton {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+  background-color: lightblue;
+  height: 100px;
+  width: 250px;
+  transition: scale 0.25s;
+}
+
+.startGameButton:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
